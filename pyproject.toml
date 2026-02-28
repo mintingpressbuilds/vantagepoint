@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "vantagepoint"
@@ -27,6 +27,9 @@ Repository = "https://github.com/doorwayagi/vantagepoint"
 
 [project.scripts]
 vantagepoint = "cli:main"
+
+[tool.setuptools]
+py-modules = ["main", "cli"]
 
 [tool.setuptools.packages.find]
 include = ["core*", "api*"]
