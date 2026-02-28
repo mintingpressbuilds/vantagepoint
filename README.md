@@ -1,10 +1,18 @@
 # VantagePoint
 
+Created by Luke H · [doorwayagi.com](https://doorwayagi.com)
+
 Structured thinking methodology as an installable Python package. Five phases: provocation, expedition, vantage, paths, receipt.
 
 Part of [Doorway](https://doorwayagi.com). Works completely standalone.
 
 ## Install
+
+```bash
+pip install vantagepoint
+```
+
+Or from source:
 
 ```bash
 pip install -r requirements.txt
@@ -163,3 +171,7 @@ print(receipt["chain"]["chain_verified"])  # True
 ```bash
 python -m pytest tests/ -v
 ```
+
+## License
+
+Apache License 2.0 · © 2026 Doorway
