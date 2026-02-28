@@ -9,7 +9,7 @@ Part of [Doorway](https://doorwayagi.com). Works completely standalone.
 ## Install
 
 ```bash
-pip install vantagepoint
+pip install vantagepoint-doorway
 ```
 
 Or from source:
